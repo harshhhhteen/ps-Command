@@ -1,21 +1,16 @@
 # ps Command
 C implementation of Linux command ps -ax
 
-## Aim---
+#### Aim
 
 Developing Linux system call for ps -ax command.
 ##### (This command displays the information about process. For more details visit man ps)
 
-## Work Done---
+#### Work Done
 
-Implemented ps -ax command in C (instead of system call).
+Implemented ps -ax command in C (instead of system call) because of lack of proper information and books on kernel mode functions.
 
-Failure Reasons---
-
-Lack of proper information and books on kernel mode functions.
---------------------------------------------------------------
-
-Procedure Followed---
+##### Procedure Followed
 
 1. Read about basic hello word system call on web and implemented as directed.
 2. Tried finding source code for ps-ax command, so that it can be modified to work in kernel mode. Source code available but without proper documentation, so hard to understand.
@@ -27,12 +22,11 @@ Procedure Followed---
 8. Tried replacing each of user mode function with kernel mode function doing same task, but failed in doing so. (Reason mentioned above)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-What more needs to be done---
+#### What more needs to be done---
 
-Somehow modify the code to support in kernel mode by finding appropriate functions or may be some other way.
-------------------------------------------------------------------------------------------------------------
+##### Somehow modify the code to support in kernel mode by finding appropriate functions or may be some other way.
 
-Requirements for current code---
+##### Requirements for current code---
 
 1. gcc compiler
 2. Linux environment
