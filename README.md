@@ -1,16 +1,14 @@
 # ps Command
 C implementation of Linux command ps -ax
 
-Aim---
+## Aim---
 
 Developing Linux system call for ps -ax command.
-(This command displays the information about process. For more details visit man ps)
-------------------------------------------------------------------------------------
+##### (This command displays the information about process. For more details visit man ps)
 
-Work Done---
+## Work Done---
 
 Implemented ps -ax command in C (instead of system call).
----------------------------------------------------------
 
 Failure Reasons---
 
@@ -43,7 +41,7 @@ Requirements for current code---
 
 ##### Compilation---
 ````
-gcc my_ps-ax.c
+gcc ps-ax.c
 ````
 
 ##### Running---
