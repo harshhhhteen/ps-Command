@@ -41,12 +41,12 @@ Requirements for current code---
 3. C libraries used in code
 -------------------------------------
 
-Compilation---
-
+##### Compilation---
+````
 gcc my_ps-ax.c
--------------------------
+````
 
-Running---
-
+##### Running---
+````
 ./a.out
------------------------
+````
